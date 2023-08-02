@@ -1,0 +1,28 @@
+.model-name {
+    display: flex;
+    align-items: baseline;
+}
+
+.threads {
+    display: flex;
+    align-items: baseline;
+}
+
+.total-capacity {
+    display: flex;
+    align-items: baseline;
+}
+
+.available-capacity {
+    display: flex;
+    align-items: baseline;
+}
+
+.resolution {
+    display: flex;
+    align-items: baseline;
+}
+
+body {
+    min-width: 300px;
+}
