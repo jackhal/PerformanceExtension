@@ -1,28 +1,21 @@
-.model-name {
-    display: flex;
-    align-items: baseline;
-}
-
-.threads {
-    display: flex;
-    align-items: baseline;
-}
-
-.total-capacity {
-    display: flex;
-    align-items: baseline;
-}
-
-.available-capacity {
-    display: flex;
-    align-items: baseline;
-}
-
-.resolution {
-    display: flex;
-    align-items: baseline;
-}
-
 body {
-    min-width: 300px;
+    font-family: 'Montserrat', sans-serif;
+    color: #9FAFCA;
+    background-color: #0E387A;
+    min-width: 310px;
+}
+
+.model-name, .threads, .total-capacity,
+.available-capacity, .resolution,
+.cpu-usage, .css-cache, .image-cache,
+.javascript-memory, .network-usage,
+.script-cache, .sqlite-memory {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 3px;
+}
+
+h3, p {
+    margin: 0;
+    padding: 0;
 }
