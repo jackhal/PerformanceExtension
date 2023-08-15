@@ -1,11 +1,15 @@
 {
   "manifest_version": 3,
   "name": "Performance Monitor",
-  "description": "Gives System and Tab Information",
-  "version": "1.0",
+  "description": "Gives system and tab information for developers.",
+  "version": "0.0.0.1",
   "permissions": ["system.cpu", "system.memory", "system.display", "tabs", "processes"],
   "action": {
     "default_popup": "popup.html",
-    "default_icon": "hello_extensions.png"
+    "default_icon": "performance-monitor128.png"
+  },
+  "icons": {
+    "128": "performance-monitor128.png",
+    "64": "performance-monitor64.png"
   }
 }
